@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+    background: rgb(218, 229, 231);
+    background: linear-gradient(90deg, rgb(211, 220, 221) 46%, (169, 195, 201) 100%); 
+    
+}
+
+header nav{
+	height: 100px;
+    margin-left: 13.3%;
+}
+header nav img{
+    float: left;
+    margin: 10px;
+}
+nav ul{
+    clear: both;
+   position: absolute;
+   margin-left: 12em;
+}
+nav ul li{
+    display: inline-block; /*is inline menu*/
+    line-height: 59px;
+}
+nav ul li a{
+    text-decoration: none;
+   font-size: 20px;
+   padding: 20px 30px;
+}
+nav a:hover {}
+
+article, nav, section{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;    
+}
+
+ div{
+    display: inline-block; 
+    width: 24.5%;
+    padding: 10px;
+}
+article div{
+    width: 37%;
+    vertical-align:text-top;
+}
+button{
+    border-radius: 10px;
+    font-weight: bold;
+    height: 33px;
+    width: 200px;
+    margin-top: 10px;
+    transition: .350ms;
+    background-color: #ddd;
+}
+button:hover{
+    transform: scale(1.1);
+    background:gray;
+    border-radius: 9px;
+}
+p{
+    text-align: left;
+}
